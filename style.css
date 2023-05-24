@@ -1,0 +1,91 @@
+*{
+    /* background-color: rgb(188, 250, 254); */
+    font-family:monospace;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar*/
+nav{
+    height: 60px;
+    background-color: rgb(252, 240, 240);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 2px solid black; */
+}
+
+nav .logo{
+    height: 100%;
+}
+nav .logo img{
+    height: 90%;
+    padding-top: 2.5%;
+    padding-left: 13%;
+    border-radius: 20px;
+}
+
+nav .heading{
+    font-size: 30px;
+    padding-left: 8%;
+}
+
+nav .search{
+    padding-right: 2%;
+}
+
+nav .search #searchValue{
+    height: 28px;
+    width: 160px;
+    border-radius: 3px;
+    border: 1px solid black;
+    background-color: rgba(173, 209, 211, 0.250);
+}
+
+nav .search .searchBtn{
+    height: 28px;
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgba(173, 209, 211, 0.250);
+    cursor: pointer;
+}
+
+/* navbar is completed*/
+
+
+/*main section*/
+.main{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    justify-content: center;
+    /* margin: auto; */
+  
+}
+
+.main .sections{
+    display: flex;
+    align-items: center;
+    opacity: 0%;
+}
+
+.section{
+    background-color: aquamarine;
+    width: 22vw;
+    height: 70%;
+    border: 0.5px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.head{
+    height: 10%;
+    border-bottom: 0.5px solid blue;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    font-size: 18px;
+}
